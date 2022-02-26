@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blanco);
+  border-radius: 0px 0px 20px 20px;
+}
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--blanco);
+    border-radius: 0px 0px 20px 20px;
+  }
+}
+.logo {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.login {
+  cursor: pointer;
+  margin: auto 10px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-left: 2rem;
+  }
+  .login {
+    display: flex;
+    margin: auto 0;
+    padding-right: 2rem;
+  }
+}

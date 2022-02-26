@@ -1,0 +1,37 @@
+.footer {
+  display: block;
+  background-color: var(--gris);
+  color: var(--primary);
+  padding-left: 2rem;
+}
+.footer p {
+}
+.apartado {
+  padding-top: 1rem;
+  font-size: 1.25rem;
+}
+.titulo {
+  font-weight: 400;
+}
+.redes {
+  display: -webkit-box;
+}
+@media (min-width: 768px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--gris);
+    color: var(--secondary);
+  }
+  .footer p {
+    margin-left: 2rem;
+  }
+  .apartado {
+    padding-top: 3.5rem;
+    line-height: 2.5;
+  }
+
+  .redes {
+    display: -webkit-box;
+  }
+}

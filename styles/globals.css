@@ -1,0 +1,25 @@
+:root {
+  --primary: #43589f;
+  --secondary: #1498d5;
+  --negro: #262626;
+  --blanco: #fff;
+  --fuente-principal: "Lato", sans-serif;
+  --fuente-secundaria: "Great Vibes", sans-serif;
+  --gris: #e6e6e6;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
